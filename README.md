@@ -4,8 +4,8 @@ Welcome to the Hugerain project. This repository contains the source code for th
 # Repository Structure
 The repository is structured as follows:
 
-<bold>.js files:</bold> These are the original source files of the project.
-unpacked_js folder: This folder contains the JavaScript files that have been edited for better readability.
+<b>.js files:</b> These are the original source files of the project.  
+<b>unpacked_js folder:</b> This folder contains the JavaScript files that have been edited for better readability.
 # Getting Started
 To get started with the project, clone the repository to your local machine:
 
