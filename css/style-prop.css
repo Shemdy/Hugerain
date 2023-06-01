@@ -1,0 +1,1 @@
+:not(input):not(textarea),:not(input):not(textarea)::after,:not(input):not(textarea)::before{-webkit-user-select:none;user-select:none;cursor:default}:focus,button,input,textarea{outline:0}a:not([draggable=true]),img:not([draggable=true]){-webkit-user-drag:none;user-drag:none}a[href^="ftp://"],a[href^="http://"],a[href^="https://"]{-webkit-user-drag:auto;user-drag:auto}

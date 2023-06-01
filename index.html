@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>hugerain.net</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link rel="stylesheet" href="./css/style-prop.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <script src="./js/external.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          onStartup();
+        });
+      </script>
+</head>
+<body>
+  <div class="hugerain">
+    <header>
+      <a href="#"><img src="./img/logo.png"></a>
+      <div class="panel">
+        <img src="./img/hide.svg" onclick="hideWindow()">
+        <img src="./img/close.svg" onclick="closeWindow()">
+      </div>
+    </header>
+    <main>
+      <!-- <h1 id="main-title">Вход в систему<a class="to-site-url" href="https://hugerain.net/">Создать аккаунт</a></h1> -->
+      <!-- <h1 id="main-title">Вход в систему<a class="to-site-url" href="https://hugerain.net/">Получить ключ</a></h1> -->
+      <h1 id="main-title">Вход в систему<a class="to-site-url" href="tg://resolve?domain=hugerainbot" onclick="window.open('https://t.me/hugerainbot');">Получить ключ</a></h1>
+      <form method="post" onsubmit="return false">
+        <!-- <input id="user-login" type="text" placeholder="Введите ваш логин" autofocus="" name=""> -->
+        <input id="user-login" type="text" placeholder="Введите ваш ключ" autofocus="" name="">
+        <input id="start-bhop" class="one" type="submit" onclick="checkSub()" value="Войти и запустить">
+        <div class="help" onclick="location.href='https://hugerain.net/';">?</div>
+      </form>
+      <footer>
+        <div class="jumps">
+          Прыжков:<span id="jump-count">?</span>
+          <a class="to-site-url" href="https://hugerain.net/">hugerain.net</a>
+        </div>
+      </footer>
+    </main>
+    <div id="notify-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p id="notify-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
