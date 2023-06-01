@@ -10,16 +10,12 @@ unpacked_js folder: This folder contains the JavaScript files that have been edi
 To get started with the project, clone the repository to your local machine:
 
 <pre>
-```
 git clone https://github.com/Shemdy/Hugerain.git
-```
 </pre>
 Then, navigate to the project directory:
 
 <pre>
-```
 cd Hugerain
-```
 </pre>
 # Contributing
 We welcome contributions to the Hugerain project. If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
